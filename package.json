@@ -1,0 +1,25 @@
+{
+  "name": "requiredir",
+  "version": "0.0.0",
+  "description": "require all files from a path",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test.js"
+  },
+  "keywords": [
+    "require",
+    "dir",
+    "async"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "dependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darlanmendonca/requiredir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/requiredir/issues"
+  }
+}
