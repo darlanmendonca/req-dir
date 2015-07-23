@@ -1,6 +1,6 @@
 {
   "name": "req-dir",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "require all files from a path",
   "main": "index.js",
   "scripts": {
