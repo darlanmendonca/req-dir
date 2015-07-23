@@ -18,8 +18,10 @@ var controllers = reqDir(path);
 
 ## Other examples:
 
+```sh
 var controllers = reqDir('./controllers');
 var controllers = reqDir('../controllers');
+```
 
 
 # Important
