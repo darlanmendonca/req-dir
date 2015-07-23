@@ -1,18 +1,20 @@
-# About
-
 This module require all files from a directory (only .json, .js, and .coffee), inside a path you want, and return a object with this modules.
 
 
-# Usage
+## Usage
 First install
+
 ```sh
 npm i --save req-dir
 ```
 
 And in your files, use:
+
+```sh
 var reqDir = require('req-dir');
 var path = '.'; // path to dir, in this case, same directory
 var controllers = reqDir(path);
+```
 
 ## Other examples:
 
@@ -20,7 +22,7 @@ var controllers = reqDir('./controllers');
 var controllers = reqDir('../controllers');
 
 
-## Important
+# Important
 The path is relative to parent (file who call) of reqDir.
 
 ### Tests
