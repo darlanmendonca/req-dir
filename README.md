@@ -27,7 +27,7 @@ var controllers = reqDir('../controllers');
 
 
 ## Important
-The path is relative to parent (file who call) of reqDir.
+The the path is relative to the file that calls the reqDir.
 
 ### Tests
 I use mocha for tests, first install mocha has global
