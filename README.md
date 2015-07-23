@@ -27,7 +27,7 @@ var controllers = reqDir('../controllers');
 
 
 ## Important
-The the path is relative to the file that calls the reqDir.
+The path is relative to the file that calls the reqDir.
 
 ## Important 2
 No load files called 'index'.
