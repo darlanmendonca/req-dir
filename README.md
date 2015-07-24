@@ -30,7 +30,7 @@ var controllers = reqDir('../controllers');
 The path is relative to the file that calls the reqDir.
 
 ### Tests
-I use mocha for tests, first install mocha has global
+I use mocha for tests, first install mocha as global
 
 ```sh
 npm i -g mocha
