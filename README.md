@@ -29,9 +29,6 @@ var controllers = reqDir('../controllers');
 ## Important
 The path is relative to the file that calls the reqDir.
 
-## Important 2
-No load files called 'index'.
-
 ### Tests
 I use mocha for tests, first install mocha has global
 

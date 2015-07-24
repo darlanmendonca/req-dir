@@ -13,12 +13,12 @@ module.exports = function(src) {
 
 	files.forEach(function(value, index) {
 		var extname = path.extname(value);
-
 		var key = value.replace(extname, '');
-		var isValidFile = extensions.indexOf(extname) >= 0 && key !== 'index';
+		var notParentIndex = module.parent.id !== path.resolve(src, value);
+		var isValidFile = extensions.indexOf(extname) >= 0;
 		var isDir = !extname;
 
-		if (isValidFile) {
+		if (isValidFile && notParentIndex) {
 			modules[key] = require(path.resolve(src, value));
 		}
 
